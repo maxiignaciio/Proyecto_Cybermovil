@@ -2,3 +2,115 @@ body{
     font-family: 'Anybody', cursive;
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+header{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    margin-left: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+nav{
+    padding-right: 40px;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.items-nav{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.text-nav{
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.text-nav:hover{
+    background-color: white;
+    color: black;
+}
+
+.text-cabezal{
+    /* display: flex; */
+    /* margin-left: 175px; */
+    /* text-align: center; */
+    text-align: center;
+}
+
+.cuerpo-pagina{
+    display: fl;
+    background-color: white;
+    width: 100%;
+}
+
+.Productos{
+    background-color: green;
+    color:white;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid black;
+}
+
+h4{
+    text-align: center;
+}
+
+.box{
+    text-align: center;
+}
+
+.laminavi{
+    width: 250px;
+    height: 250px;
+}
+
+.carcasaas{
+    width: 250px;
+    height: 250px;
+}
+
+.cargador{
+    width: 250px;
+    height: 250px;
+}
+
+
+.pie-pagina footer{
+    height: auto;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#contacto{
+    text-align: left;
+    padding-left: 10px;
+}
+
+.text-contacto{
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+@media (max-width:800px){
+    nav{
+        display: none;
+        width: 100%;
+    }
+}
