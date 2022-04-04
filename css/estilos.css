@@ -50,6 +50,11 @@ nav{
     text-align: center;
 }
 
+.colorcarrusel{
+    background-color: lightgray;
+    height: 10%;
+}
+
 .cuerpo-pagina{
     display: fl;
     background-color: white;
@@ -112,5 +117,22 @@ h4{
     nav{
         display: none;
         width: 100%;
+    }
+    body{
+        width: 100%;
+    }
+
+    .logo{
+        text-align: center;
+    }
+
+    footer{
+        width:100px
+    }
+}
+
+@media (min-width:600px){
+    .logo{
+        text-align: center;
     }
 }
