@@ -3,6 +3,18 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+.imgx{
+    max-width: 100%;
+}
+
+.toggle-menu{
+    position: absolute;
+    width: 40px;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
 header{
     display: flex;
     background-color: black;
@@ -113,11 +125,7 @@ h4{
     padding-left: 40px;
 }
 
-@media (max-width:800px){
-    nav{
-        display: none;
-        width: 100%;
-    }
+@media (min-width:800px){
     body{
         width: 100%;
     }
@@ -127,12 +135,25 @@ h4{
     }
 
     footer{
-        width:100px
+        width:100px;
     }
 }
 
-@media (min-width:600px){
-    .logo{
-        text-align: center;
+@media (max-width:650px){
+    nav{
+        display: none;
+        /* list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        background-color: #000000; */
     }
+
+    /* .text-nav{
+        display: block;
+        color: rgb(255, 255, 255);
+        padding: 8px 16px;
+        text-decoration: none;
+        text-align: center;
+    } */
 }
